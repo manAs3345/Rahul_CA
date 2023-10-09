@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin:1%;
+}
+
+.logo{
+    width:20%;
+}
+.logo-img{
+    width: 100%;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+}
+.nav-items p{
+    margin:10px;
+}
+.nav-items p a{
+    text-decoration: none;
+    color:#083d5f;
+    font-weight: bold;
+}
+.nav-items p a:hover{
+    color:#81b84d;
+}

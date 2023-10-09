@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <title>R V Somani & Co. - Services</title>
+    <script src="./js/services.js"></script>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="./images/ca_logo.png" alt="" class="logo-img">
+        </div>
+        <nav class="nav-items">
+            <p><a href="./home.html">Home</a></p>
+            <p><a href="./about.html">About Us</a></p>
+            <p><a href="./services.html">Our Services</a></p>
+            <p><a href="/">Accomplishments</a></p>
+            <p><a href="/">Contact Us</a></p>
+        </nav>
+    </div>
+    <h1 class="services-header">Our Services</h1>
+    <div class="services-container">
+        <div class="service">
+            <img src="./images/audit.png" alt="" class="service-icon">
+            <h3>Taxation</h3>
+            <p>
+                Stay compliant and minimize your tax liabilities with our expert tax planning and filing services.
+            </p>
+            <button class="more-btn" onclick="handleAuditingModal()">Know More</button>
+        </div>
+        <div class="service" onclick="handleAccountingModal()">
+            <img src="./images/audit.png" alt="" class="service-icon">
+            <h3>Audit and Assurance</h3>
+            <p>
+                Gain confidence in your financial statements with our comprehensive audit and assurance services.
+            </p>
+            <button class="more-btn" onclick="handleAccountingModal()">Know More</button>
+        </div>
+        <div class="service">
+            <img src="./images/audit.png" alt="" class="service-icon">
+            <h3>Business Advisory</h3>
+            <p>
+                Let us help you make informed decisions and drive growth with our strategic business advisory services.
+            </p>
+            <button class="more-btn" onclick="handleTaxAuditModal()">Know More</button>
+        </div class="service">
+        <div class="service">
+            <img src="./images/audit.png" alt="" class="service-icon">
+            <h3>GST and Compliance</h3>
+            <p>
+                Streamline your financial processes and focus on your core business activities while we handle your accounting needs.
+            </p>
+            <button class="more-btn" onclick="handlePANModal()">Know More</button>
+        </div>
+        <div class="service">
+            <img src="./images/audit.png" alt="" class="service-icon">
+            <h3>Consultancy</h3>
+            <p>
+                Expert financial advice, auditing, tax planning, and strategic guidance to businesses and individuals for optimal financial management and compliance.
+            </p>
+            <button class="more-btn" onclick="handleConsultModal()">Know More</button>
+        </div>
+        <div class="service">
+            <img src="./images/audit.png" alt="" class="service-icon">
+            <h3>Firm Registration</h3>
+            <p>
+                Seamless registration of firms, ensuring legal compliance, and providing expert guidance on structure, taxation, and regulatory requirements
+            </p>
+            <button class="more-btn" onclick="handleFirmModal()">Know More</button>
+        </div>
+        <div class="service-modal-overlay" id="services-modal">
+            <div class="services-modal">
+                <div class="services-modal-top">
+                    <h1 class="services-modal-heading">Audit</h1>
+                    <p onclick="closeModal()" id="modal-x">X</p>
+                </div>
+                <p class="services-modal-body">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dignissimos quasi ab nam natus, ut ipsam odio excepturi doloribus ex, quidem, animi facere cumque placeat culpa fugiat assumenda corporis explicabo debitis labore possimus velit voluptate necessitatibus consequuntur! 
+                    Totam optio vitae est porro excepturi itaque delectus aut, numquam quisquam mollitia, veritatis cumque nostrum nobis culpa unde voluptatibus quaerat quibusdam molestiae? Omnis, doloremque.
+                </p>
+    
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

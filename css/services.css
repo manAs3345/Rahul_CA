@@ -1,0 +1,52 @@
+.services-header{
+    text-align: center;
+    font-weight: bold;
+    color: #083d5f;
+}
+.service-icon{
+    width:30%;
+}
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    position: relative;
+}
+.service-modal-overlay{
+    background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height:100%;
+    display: none;
+}
+.services-modal{
+    position: absolute;
+    width:500px;
+    height:fit-content;
+    left:35%;
+    top: 30%;
+    background-color: white;
+    padding: 1%;
+}
+.service{
+    padding:50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+
+}
+.more-btn{
+    padding: 5px;
+    width:50%;
+    border:3px solid #083d5f;
+    color:#083d5f;
+    background-color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.services-modal-top{
+    display: flex;
+    justify-content: space-between;
+}
+.services-modal-top p {
+    text-align: center;
+}
