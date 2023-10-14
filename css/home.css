@@ -41,12 +41,11 @@
 .services-heading{
     color:#083d5f;
     font-weight: bold;
-    border-bottom: 4px solid #81b84d;
     margin-right: 80%;
-}
-.services-line{
-    width:10%;
-    background-color: #81b84d;
+    text-decoration: underline;
+    text-decoration-color: #81b84d;
+    text-underline-offset: 15px;
+    margin-bottom: 10px;
 }
 .service-container{
     display: grid;
@@ -59,9 +58,7 @@
     margin: 10px;
     padding: 20px;
 }
-.service h3{
-    color:white
-}
+
 .service img{
     width:14%;
     height: 80%;

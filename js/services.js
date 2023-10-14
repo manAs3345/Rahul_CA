@@ -1,14 +1,17 @@
-function handleAuditingModal(){
-    const servicesModal = document.getElementById('services-modal');
-    servicesModal.style.display = 'block';
-
+function handleTaxationModal(){
+    const taxationModal = document.getElementById("taxation-modal");
+    taxationModal.style.display="block";
 }
-function handleAccountingModal(){
-    const servicesModal = document.getElementById('services-modal');
-    servicesModal.style.display = 'block';
-
+function closeTaxationModal(){
+    const taxationModal = document.getElementById("taxation-modal");
+    taxationModal.style.display="none";
 }
-function closeModal(){
-    const servicesModal = document.getElementById('services-modal');
-    servicesModal.style.display = 'none';
+
+function handleAuditModal(){
+    const auditModal = document.getElementById("audit-modal");
+    auditModal.style.display="block";
+}
+function closeAuditModal(){
+    const auditModal = document.getElementById("audit-modal");
+    auditModal.style.display="none";
 }

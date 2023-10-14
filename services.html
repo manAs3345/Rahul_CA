@@ -7,21 +7,28 @@
     <link rel="stylesheet" href="./css/services.css">
     <title>R V Somani & Co. - Services</title>
     <script src="./js/services.js"></script>
+    <script src="https://kit.fontawesome.com/fdaaa2681a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="nav-container">
         <div class="logo">
-            <img src="./images/ca_logo.png" alt="" class="logo-img">
+            <a href="./index.html">
+                <img src="./images/ca_logo.png" alt="" class="logo-img">
+            </a>
         </div>
         <nav class="nav-items">
             <p><a href="./index.html">Home</a></p>
             <p><a href="./about.html">About Us</a></p>
             <p><a href="./services.html">Our Services</a></p>
             <p><a href="/">Accomplishments</a></p>
-            <p><a href="/">Contact Us</a></p>
+            <p><a href="./contact.html">Contact Us</a></p>
         </nav>
     </div>
-    <h1 class="services-header">Our Services</h1>
+    <div class="services-section">
+        <div class="services-header-container">
+            <h1 class="services-header">Our Services</h1>
+        </div>
+        
     <div class="services-container">
         <div class="service">
             <img src="./images/audit.png" alt="" class="service-icon">
@@ -29,63 +36,297 @@
             <p>
                 Stay compliant and minimize your tax liabilities with our expert tax planning and filing services.
             </p>
-            <button class="more-btn" onclick="handleAuditingModal()">Know More</button>
+            <button class="more-btn" onclick="handleTaxationModal()">Know More</button>
         </div>
-        <div class="service" onclick="handleAccountingModal()">
-            <img src="./images/audit.png" alt="" class="service-icon">
+        <div class="service">
+            <img src="./images/customer-service.png" alt="" class="service-icon">
             <h3>Audit and Assurance</h3>
             <p>
                 Gain confidence in your financial statements with our comprehensive audit and assurance services.
             </p>
-            <button class="more-btn" onclick="handleAccountingModal()">Know More</button>
+            <button class="more-btn" onclick="handleAuditModal()">Know More</button>
         </div>
         <div class="service">
-            <img src="./images/audit.png" alt="" class="service-icon">
+            <img src="./images/ba.png" alt="" class="service-icon">
             <h3>Business Advisory</h3>
             <p>
                 Let us help you make informed decisions and drive growth with our strategic business advisory services.
             </p>
-            <button class="more-btn" onclick="handleTaxAuditModal()">Know More</button>
+            <button class="more-btn" onclick="handleBAModal()">Know More</button>
         </div class="service">
         <div class="service">
-            <img src="./images/audit.png" alt="" class="service-icon">
-            <h3>GST and Compliance</h3>
+            <img src="./images/accounting.png" alt="" class="service-icon">
+            <h3>Accounting</h3>
             <p>
                 Streamline your financial processes and focus on your core business activities while we handle your accounting needs.
             </p>
             <button class="more-btn" onclick="handlePANModal()">Know More</button>
         </div>
         <div class="service">
-            <img src="./images/audit.png" alt="" class="service-icon">
-            <h3>Consultancy</h3>
+            <img src="./images/taxes.png" alt="" class="service-icon">
+            <h3>GST and Compliance</h3>
             <p>
                 Expert financial advice, auditing, tax planning, and strategic guidance to businesses and individuals for optimal financial management and compliance.
             </p>
             <button class="more-btn" onclick="handleConsultModal()">Know More</button>
         </div>
-        <div class="service">
-            <img src="./images/audit.png" alt="" class="service-icon">
-            <h3>Firm Registration</h3>
-            <p>
-                Seamless registration of firms, ensuring legal compliance, and providing expert guidance on structure, taxation, and regulatory requirements
-            </p>
-            <button class="more-btn" onclick="handleFirmModal()">Know More</button>
-        </div>
-        <div class="service-modal-overlay" id="services-modal">
-            <div class="services-modal">
-                <div class="services-modal-top">
-                    <h1 class="services-modal-heading">Audit</h1>
-                    <p onclick="closeModal()" id="modal-x">X</p>
-                </div>
-                <p class="services-modal-body">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dignissimos quasi ab nam natus, ut ipsam odio excepturi doloribus ex, quidem, animi facere cumque placeat culpa fugiat assumenda corporis explicabo debitis labore possimus velit voluptate necessitatibus consequuntur! 
-                    Totam optio vitae est porro excepturi itaque delectus aut, numquam quisquam mollitia, veritatis cumque nostrum nobis culpa unde voluptatibus quaerat quibusdam molestiae? Omnis, doloremque.
-                </p>
-    
-            </div>
-        </div>
-        
     </div>
+    <div class="service-modal-overlay" id="taxation-modal">
+        <div class="services-modal">
+            <div class="services-modal-top">
+                <h1 class="services-modal-heading">Taxation</h1>
+                <i class="fa-solid fa-xmark" onclick="closeTaxationModal()" id="modal-x"></i>
+            </div>
+            <div>
+                <ol>
+                    <b><li>Tax Planning and advisory</li></b>
+                    <ul>
+                        <li>
+                           Personalized tax planning and advisory services to help individuals and businesses legally minimize their tax liabilities. They assess clients' financial situations, including income, investments, and expenses, to devise tax-efficient strategies.
+                        </li>
+                        <li>
+                            Guidance on various tax-saving investment options available under Indian tax laws, such as tax-saving fixed deposits, Public Provident Fund (PPF), Equity-Linked Savings Schemes (ELSS), National Pension System (NPS), and more.
+                        </li>
+                        <li>
+                            Advice on structuring business transactions, mergers, acquisitions, and other financial decisions to optimize tax outcomes.
+                        </li>
+                    </ul>
+                    <b><li>Income Tax Return (ITR) Filing</li></b>
+                    <ul>
+                        <li>Help individuals and businesses in preparing and filing their income tax returns accurately and on time.</li>
+                        <li>Ensure that all eligible deductions, exemptions, and credits are claimed to reduce the overall tax liability.</li>
+                        <li>Well-versed in the e-filing procedures mandated by the Income Tax Department and help clients navigate the online filing process.</li>
+                    </ul>
+                    <b>
+                        <li>Goods and Services Tax (GST) Services</li>
+                    </b>
+                    <ul>
+                        <li>Help businesses comply with complex indirect tax regime.</li>
+                        <li>Assist in GST registration, filing of GST returns, and maintaining GST compliance.</li>
+                        <li>Provide guidance on the correct classification of goods and services, calculation of GST liabilities, and the implementation of GST-compliant accounting systems.</li>
+                    </ul>
+                    <b>
+                        <li>Tax Audit and Compliance</li>
+                    </b>
+                    <ul>
+                        <li>Perform tax audits for businesses and professionals whose annual turnover or income exceeds the specified threshold.</li>
+                        <li>Examine financial records, transactions, and compliance with tax laws to ensure accuracy and adherence to tax regulations.</li>
+                        <li>Help clients rectify any discrepancies and ensure they are in compliance with the tax authorities.</li>
+                    </ul>
+                    <b>
+                        <li>Transfer Pricing Consultation</li>
+                    </b>
+                    <ul>
+                        <li>For Businesses involved in international transactions, we provide transfer pricing services to ensure transactions between related entities are at arm's length, as per tax regulations.</li>
+                        <li>Assist in maintaining detailed transfer pricing documentation to support the pricing methodology.</li>
+                    </ul>
+                    <b>
+                        <li>Representation Before Tax Authorities:</li>
+                    </b>
+
+                    <ul>
+                        <li>Represent clients before tax authorities during tax assessments, appeals, and disputes.</li>
+                        <li>Expert guidance on handling tax-related notices and inquiries, helping clients navigate the legal aspects of tax matters.</li>
+                    </ul>
+                    <b>
+                        <li>Tax Due Dilligence</li>
+                    </b>
+
+                    <ul>
+                        <li>In mergers, acquisitions, or investments, we perform tax due diligence to assess the tax implications of a transaction.</li>
+                        <li>Identify potential risks and opportunities related to taxation and recommend strategies to mitigate risks and optimize tax outcomes.</li>
+                    </ul>
+                    <b>
+                        <li>Compliance with Other Tax Laws</li>
+                    </b>
+                    <ul>
+                        <li>
+                            Besides income tax and GST, Chartered Accountants also assist clients in complying with other tax laws and regulations, such as customs duties, excise duties, and state-specific taxes.
+                        </li>
+                    </ul>
+                    <b>
+                        <li>Advisory on Tax Planning for Non-Residents</li>
+                    </b>
+                    <ul>
+                        <li>
+                            CAs provide tax advice to non-residents (NRIs) and foreign entities on their tax obligations in India, including Double Taxation Avoidance Agreements (DTAA).
+                        </li>
+                    </ul>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+    <div class="service-modal-overlay" id="audit-modal">
+        <div class="services-modal">
+            <div class="services-modal-top">
+                <h1 class="services-modal-heading">Audit and Assurance</h1>
+                <i class="fa-solid fa-xmark close-icon" onclick="closeAuditModal()" id="modal-x"></i>
+            </div>
+            <div>
+                <ol>
+                    <b><li>Statutory Audit</li></b>
+                    <ul>
+                        <li>
+                            Conduct statutory audits to verify the accuracy of financial statements, compliance with accounting standards, and adherence to regulatory requirements
+                        </li>
+                        <li>
+                            Guidance on various tax-saving investment options available under Indian tax laws, such as tax-saving fixed deposits, Public Provident Fund (PPF), Equity-Linked Savings Schemes (ELSS), National Pension System (NPS), and more.
+                        </li>
+                    </ul>
+                    <b><li>Tax Audit</li></b>
+                    <ul>
+                        <li>Ensure the correctness of income and deductions declared in tax returns and compliance with tax laws</li>
+                    </ul>
+                    <b>
+                        <li>Internal Audit</li>
+                    </b>
+                    <ul>
+                        <li>Help organizations identify operational inefficiencies, fraud risks, and areas for improvement</li>
+                    </ul>
+                    <b>
+                        <li>Management Audit</li>
+                    </b>
+                    <ul>
+                        <li>Asses whether management is meeting its objectives and making informed decisions that align with the organization's strategic goals</li>
+                        
+                    </ul>
+                    <b>
+                        <li>Special Purpose Audit</li>
+                    </b>
+                    <ul>
+                        <li>Customize audit procedures to address the unique aspects of the engagement</li>
+                    </ul>
+                    <b>
+                        <li>Forensic Audit</li>
+                    </b>
+
+                    <ul>
+                        <li>Use investigative techniques to uncover financial discrepancies, gather evidence, and provide expert witness testimony if necessary.</li>
+                    </ul>
+                    <b>
+                        <li>Due Dilligence</li>
+                    </b>
+
+                    <ul>
+                        <li>Examine financial records, contracts, and operational aspects to help clients make informed investment decisions.</li>
+                    </ul>
+                    <b>
+                        <li>Compliance Audit</li>
+                    </b>
+                    <ul>
+                        <li>
+                            Ensure that the organization is complying with relevant laws and regulations to avoid penalties and legal liabilities
+                        </li>
+                    </ul>
+                    <b>
+                        <li>Review Engagements</li>
+                    </b>
+                    <ul>
+                        <li>
+                            Perform analytical procedures and inquiries to assess whether any material modifications are needed to the financial statements.
+                        </li>
+                    </ul>
+                    <b>
+                        <li>Certification Services</li>
+                    </b>
+                    <ul>
+                        <li>
+                            Certification services for specific purposes, such as certification of export-related documents, net worth certificates, or compliance certificates required by regulatory authorities
+                        </li>
+                    </ul>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+    <div class="service-modal-overlay" id="BA-modal">
+        <div class="services-modal">
+            <div class="services-modal-top">
+                <h1 class="services-modal-heading">Business Advisory</h1>
+                <p onclick="closeBAModal()" id="modal-x">X</p>
+            </div>
+            <div>
+                <ol>
+                    <b><li>Strategic Planning</li></b>
+                    <ul>
+                        <li>
+                            Assist businesses in developing and implementing strategic plans to set clear objectives, identify growth opportunities, and align resources with long-term goals.
+                        </li>
+                        <li>
+                            Analyze market trends, competitive landscapes, and financial data to formulate effective strategies
+                        </li>
+                    </ul>
+                    <b><li>Financial Analysis and Management</li></b>
+                    <ul>
+                        <li>Provide in-depth financial analysis, helping businesses understand their financial health, profitability, and liquidity</li>
+                        <li>Offer recommendations for optimizing working capital, managing cash flow, and improving financial performance</li>
+                    </ul>
+                    <b>
+                        <li>Business Valuation</li>
+                    </b>
+                    <ul>
+                        <li>Assess the value of businesses for various purposes, including mergers and acquisitions, shareholder disputes, estate planning, and financial reporting</li>
+                        <li>Use different valuation methods, such as discounted cash flow (DCF), market comparables, and asset-based approaches, to determine a business's worth</li>
+                    </ul>
+                    <b>
+                        <li>Feasability Studies</li>
+                    </b>
+                    <ul>
+                        <li>Conduct feasibility studies to evaluate the viability of new projects, expansions, or investments</li>
+                        <li>Assess factors like market demand, competition, resource requirements, and financial projections to help clients make informed investment decisions</li>
+                    </ul>
+                    <b>
+                        <li>Risk Management</li>
+                    </b>
+                    <ul>
+                        <li>Identify and evaluate business risks, including financial, operational, and strategic risks</li>
+                        <li>Develop risk mitigation strategies and internal controls to minimize potential threats to the business</li>
+                    </ul>
+                    <b>
+                        <li>Cost Management and Profitability Analysis</li>
+                    </b>
+
+                    <ul>
+                        <li>Analyze cost structures and recommend cost reduction strategies to enhance profitability</li>
+                    </ul>
+                    <b>
+                        <li>Help businesses identify areas of inefficiency and implement cost-effective measures</li>
+                    </b>
+
+                    <ul>
+                        <li>Examine financial records, contracts, and operational aspects to help clients make informed investment decisions.</li>
+                    </ul>
+                    <b>
+                        <li>Compliance Audit</li>
+                    </b>
+                    <ul>
+                        <li>
+                            Ensure that the organization is complying with relevant laws and regulations to avoid penalties and legal liabilities
+                        </li>
+                    </ul>
+                    <b>
+                        <li>Review Engagements</li>
+                    </b>
+                    <ul>
+                        <li>
+                            Perform analytical procedures and inquiries to assess whether any material modifications are needed to the financial statements.
+                        </li>
+                    </ul>
+                    <b>
+                        <li>Certification Services</li>
+                    </b>
+                    <ul>
+                        <li>
+                            Certification services for specific purposes, such as certification of export-related documents, net worth certificates, or compliance certificates required by regulatory authorities
+                        </li>
+                    </ul>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    
 </body>
 </html>

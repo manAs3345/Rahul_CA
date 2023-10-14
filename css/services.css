@@ -1,32 +1,57 @@
+body{
+    margin:0px;
+}
+.nav-container{
+    margin: 1%;
+}
 .services-header{
     text-align: center;
     font-weight: bold;
     color: #083d5f;
+    font-size: 40px;
 }
 .service-icon{
     width:30%;
 }
 .services-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 0.4fr 0.4fr;
     text-align: center;
-    position: relative;
+}
+.service{
+    background-color: white;
 }
 .service-modal-overlay{
     background-color:rgba(0,0,0,0.5);
     position: absolute;
     width: 100%;
-    height:100%;
+    height:200%;
     display: none;
+    margin: 0px;
+    top:0;
 }
 .services-modal{
-    position: absolute;
+    position:fixed;
     width:500px;
-    height:fit-content;
+    height:400px;
     left:35%;
-    top: 30%;
+    top: 20%;
     background-color: white;
-    padding: 1%;
+    padding: 2%;
+    overflow-y: scroll;
+}
+.service ol li ul{
+    display: block;
+}
+.services-modal-heading{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #81b84d;
+    text-underline-offset: 5px;
+    margin-bottom: 10px;
+}
+.services-modal-intro{
+    padding: 10px;
 }
 .service{
     padding:50px;
@@ -49,4 +74,25 @@
 }
 .services-modal-top p {
     text-align: center;
+}
+.services-modal li{
+    margin-left: 3%;
+}
+.services-section{
+    background-image: url("../images/services_bg\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:1%;
+    margin: 1%;
+}
+.services-container{
+    margin-left: 15%;
+}
+.more-btn-icon{
+    width:15%;
+    position: relative;
+    top:5px;
+}
+#model-x{
+    width: 50px;
 }
