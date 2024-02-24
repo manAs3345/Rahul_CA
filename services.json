@@ -1,0 +1,38 @@
+{
+    "services":[
+        {
+            "name":"Texation",
+            "description":"Stay compliant and minimize your tax liabilities with our expert tax planning and filing services.",
+            "sub_services":[
+                {
+                    "sub_service_name":"Tax Planning and advisory",
+                    "sub_service_descriptions":[
+                        "Personalized tax planning and advisory services to help individuals and businesses legally minimize their tax liabilities. They assess clients' financial situations, including income, investments, and expenses, to devise tax-efficient strategies.",
+                        "Guidance on various tax-saving investment options available under Indian tax laws, such as tax-saving fixed deposits, Public Provident Fund (PPF), Equity-Linked Savings Schemes (ELSS), National Pension System (NPS), and more.",
+                        "Advice on structuring business transactions, mergers, acquisitions, and other financial decisions to optimize tax outcomes."
+                    ]
+                },
+                {
+                    "sub_service_name":"Income Tax Return (ITR) Filing",
+                    "sub_service_descriptions":[
+                        "Help businesses comply with complex indirect tax regime.",
+                        "Ensure that all eligible deductions, exemptions, and credits are claimed to reduce the overall tax liability.",
+                        "Well-versed in the e-filing procedures mandated by the Income Tax Department and help clients navigate the online filing process."
+                    ]
+                },
+                {
+                    "sub_service_name":"Goods and Services Tax (GST) Services",
+                    "sub_service_descriptions":[
+                        "Help individuals and businesses in preparing and filing their income tax returns accurately and on time.",
+                        "Assist in GST registration, filing of GST returns, and maintaining GST compliance.",
+                        "Provide guidance on the correct classification of goods and services, calculation of GST liabilities, and the implementation of GST-compliant accounting systems."
+                    ]
+                }
+            ]
+        },
+        {},
+        {},
+        {},
+        {}
+    ]
+}
