@@ -1,0 +1,49 @@
+.contact-banner{
+    width:100%;
+    height:30vh;
+    position: relative;
+}
+.contact_banner_img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.banner_overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contact_number_section{
+    position: absolute;
+    top: 80%;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    width:100%;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    margin: 10px;
+}
+.contact > i{
+    font-size: 40px;
+}
+.contact-detail{
+    color:blue;
+    font-weight: bold;
+}
