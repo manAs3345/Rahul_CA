@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap');
+
+.about-banner{
+    width:100%;
+    height:30vh;
+    position: relative;
+}
+.about_banner_img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.banner_overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.banner_overlay > h1{
+    font-size:40px;
+}
+.banner_overlay > p{
+    position: relative;
+    bottom: 10%;
+    font-size: 20px;
+}
+.founder-section{
+    margin-top: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0px;
+    border:4px solid #083d5f;
+}
+
+.founder-picture{
+    width:50vh;
+    position: relative;
+    left:50%;
+}
+.gradutation-icon{
+    width:40px;
+    margin-right: 10px;
+}
+.education-1{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color:#083d5f;
+}
+.founder-info{
+    margin-top: 15px;
+}
+.founder-education{
+    display: flex;
+    margin-top: 10px;
+}
+.company-1,.company-2,.company-3{
+    background-color: #EAEAEA;
+    border:4px solid #083d5f;
+}
+
+.company-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+}
+/* .company-section p{
+    text-align: center;
+} */
+.company-img{
+    width:100%;
+}
+.company-text{
+    padding: 20px;
+}
+.company-section-heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
