@@ -59,6 +59,11 @@
     padding: 20px;
 }
 
+.service:hover{
+    transition: 0.25s;
+    border:4px solid #81b84d;
+}
+
 .service img{
     width:14%;
     height: 80%;
@@ -105,6 +110,15 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .expertise:hover{
+    transition: 0.25s;
     border:4px solid #81b84d;
+}
+.fa-bars{
+    display:none;
+}
+
+@media screen and (max-width:500px) {
+    
+    
 }
 /* rgba(0,0,0,0.5) */

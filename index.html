@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/home.css">
+    <script src="https://kit.fontawesome.com/fdaaa2681a.js" crossorigin="anonymous"></script>
     <title>R V Somani & Co.</title>
 </head>
 <body>
@@ -14,6 +15,7 @@
                 <img src="./images/ca_logo.png" alt="" class="logo-img">
             </a>
         </div>
+        <!-- <i class="fa-solid fa-bars"></i> -->
         <nav class="nav-items">
             <p><a href="./index.html">Home</a></p>
             <p><a href="./about.html">About Us</a></p>
@@ -28,7 +30,7 @@
         
             <div class="home-black-overlay">
                 <div>
-                    <h1 style="text-align: center;">Welcome to R V Somani & Co,<br>your trusted partner in financial excellence</h1>
+                    <h1 style="text-align: center;" class="typing"></h1>
                 </div>
                 <br>
                 <br>
@@ -142,7 +144,31 @@
         </div>
         
     </div>
-    
+    <script src="./js/jquery.js"></script>
+    <script>
+        var i = 0;
+        var text = "Welcome to R V Somani & Co,\nyour trusted partner in financial excellence";
+        var speed = 50;
+
+        $(function(){
+            $(".cta-btns").css("display","none");
+            function typeWriter(){
+                if (i < text.length) {
+                    $(".typing").append(text.charAt(i));
+                    i++;
+                    setTimeout(typeWriter, speed);
+                }
+            }
+            typeWriter();
+            function displayBtns(){
+                $(".cta-btns").css("transition","0.25s");
+                $(".cta-btns").css("display","block")
+            }
+            setTimeout(displayBtns,5000);
+            
+           
+        })
+    </script>
    
 </body>
 <!-- <footer>
