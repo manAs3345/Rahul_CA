@@ -127,23 +127,9 @@ footer{
     display: none;
 } */
 
-/* @media screen and (max-width:500px) {
-    .hIcon{
-        margin-left: 370px;
-    }
-    .nav-container{
-        display: block;
-    }
-    .nav-items{
-        display: none;
-    }
-    .hIcon{
-        display: block;
-    }
-    #hamburger:checked ~ .nav-items{
-        transition: 0.25s;
-        display: flex;
-        flex-direction: column;
+@media screen and (max-width:500px) {
+    .hamburger{
+        margin-right: 20px;
     }
     
-} */
+}
