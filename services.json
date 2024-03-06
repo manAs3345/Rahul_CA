@@ -1,38 +1,229 @@
 {
     "services":[
         {
-            "name":"Texation",
+            "name":"Taxation",
+            "class_name":"taxtation",
             "description":"Stay compliant and minimize your tax liabilities with our expert tax planning and filing services.",
             "sub_services":[
                 {
                     "sub_service_name":"Tax Planning and advisory",
                     "sub_service_descriptions":[
-                        "Personalized tax planning and advisory services to help individuals and businesses legally minimize their tax liabilities. They assess clients' financial situations, including income, investments, and expenses, to devise tax-efficient strategies.",
-                        "Guidance on various tax-saving investment options available under Indian tax laws, such as tax-saving fixed deposits, Public Provident Fund (PPF), Equity-Linked Savings Schemes (ELSS), National Pension System (NPS), and more.",
-                        "Advice on structuring business transactions, mergers, acquisitions, and other financial decisions to optimize tax outcomes."
+                        "We provide personalized tax planning and advisory services to help individuals and businesses legally minimize their tax liabilities.",
+                        "We assess your financial situations, including income, investments, and expenses, to devise tax-efficient strategies.",
+                        "We provide guidance on various tax-saving investment options available under Indian tax laws, such as tax-saving fixed deposits, Public Provident Fund (PPF), Equity-Linked Savings Schemes (ELSS), National Pension System (NPS), and more.",
+                        "We give advice on structuring your business transactions, mergers, acquisitions, and other financial decisions to optimize your tax outcomes."
                     ]
                 },
                 {
                     "sub_service_name":"Income Tax Return (ITR) Filing",
                     "sub_service_descriptions":[
-                        "Help businesses comply with complex indirect tax regime.",
-                        "Ensure that all eligible deductions, exemptions, and credits are claimed to reduce the overall tax liability.",
-                        "Well-versed in the e-filing procedures mandated by the Income Tax Department and help clients navigate the online filing process."
+                        "We ensure that your businesses complies with the complex indirect tax regime.",
+                        "We ensure that all eligible deductions, exemptions, and credits are claimed to reduce the overall tax liability.",
+                        "We are well-versed in the e-filing procedures mandated by the Income Tax Department and help you to navigate the online filing process."
                     ]
                 },
                 {
                     "sub_service_name":"Goods and Services Tax (GST) Services",
                     "sub_service_descriptions":[
-                        "Help individuals and businesses in preparing and filing their income tax returns accurately and on time.",
-                        "Assist in GST registration, filing of GST returns, and maintaining GST compliance.",
-                        "Provide guidance on the correct classification of goods and services, calculation of GST liabilities, and the implementation of GST-compliant accounting systems."
+                        "We help you and your business in preparing and filing your income tax returns accurately and on time.",
+                        "We assist in GST registration, filing of GST returns, and maintaining GST compliance.",
+                        "We provide guidance on the correct classification of goods and services, calculation of GST liabilities, and the implementation of GST-compliant accounting systems."
                     ]
                 }
-            ]
+            ],
+            "image_url":"https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
-        {},
-        {},
-        {},
-        {}
+        {
+            "name":"Audit and Assurance",
+            "class_name":"audit_and_assurance",
+            "description":"Ensure accuracy and compliance with our comprehensive audit and assurance services.",
+            "sub_services":[
+                {
+                    "sub_service_name":"Statutory Audit",
+                    "sub_service_descriptions":[
+                        "We conduct thorough examination of financial records to ensure compliance with statutory requirements and regulations.",
+                        "We provide insightful analysis of financial performance and operational efficiency.",
+                        "We recommend strategies for improvement based on audit findings and industry best practices."
+                    ]
+                },
+                {
+                    "sub_service_name":"Internal Audit",
+                    "sub_service_descriptions":[
+                        "We assess effectiveness of internal controls and risk management processes.",
+                        "We identify weaknesses and vulnerabilities in business operations and financial reporting.",
+                        "We provide recommendations to enhance internal controls and mitigate risks."
+                    ]
+                },
+                {
+                    "sub_service_name":"Special Purpose Audit",
+                    "sub_service_descriptions":[
+                        "We conduct specialized audits tailored to meet specific business needs and objectives.",
+                        "We investigate financial irregularities, fraud, and compliance issues.",
+                        "We deliver actionable insights and recommendations to address audit findings and improve business performance."
+                    ]
+                },
+                {
+                    "sub_service_name":"Forensic Audit",
+                    "sub_service_descriptions":[
+                        "We conduct in-depth investigation of financial irregularities, fraud, and misconduct.",
+                        "We gather evidence and documentation for legal proceedings and dispute resolution.",
+                        "We provide expert testimony and support in litigation cases."
+                    ]
+                },
+                {
+                    "sub_service_name":"Compliance Audit",
+                    "sub_service_descriptions":[
+                        "We ensure compliance with legal and regulatory requirements, including tax laws and corporate governance standards.",
+                        "We identify areas of non-compliance and recommend corrective actions and process improvements.",
+                        "We assess effectiveness of compliance programs and controls."
+                    ]
+                }
+            ],
+            "image_url":"https://images.unsplash.com/photo-1530971013997-e06bb52a2372?q=80&w=1996&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name":"Business Advisory",
+            "class_name":"business_advisory",
+            "description":"Unlock growth opportunities with strategic business advisory services.",
+            "sub_services":[
+                {
+                    "sub_service_name":"Financial Planning and Analysis",
+                    "sub_service_descriptions":[
+                        "We develop comprehensive financial plans aligned with business goals and objectives.",
+                        "We conduct in-depth financial analysis to identify trends, opportunities, and risks.",
+                        "We provide strategic recommendations to optimize financial performance and achieve sustainable growth."
+                    ]
+                },
+                {
+                    "sub_service_name":"Risk Management",
+                    "sub_service_descriptions":[
+                        "We assess and mitigate risks across all aspects of business operations and financial activities.",
+                        "We implement robust risk management frameworks and controls.",
+                        "We provide ongoing monitoring and evaluation to ensure effective risk mitigation and compliance."
+                    ]
+                },
+                {
+                    "sub_service_name":"Strategic Consulting",
+                    "sub_service_descriptions":[
+                        "We offer strategic guidance and support to address complex business challenges and opportunities.",
+                        "We assist with strategic planning, market analysis, and competitive positioning.",
+                        "We develop and execute customized growth strategies to drive business success and competitiveness."
+                    ]
+                },
+                {
+                    "sub_service_name":"Mergers and Acquisitions",
+                    "sub_service_descriptions":[
+                        "We conduct comprehensive due diligence on potential acquisitions and partnerships.",
+                        "We provide valuation services and financial analysis to support decision-making.",
+                        "We assist with negotiation, deal structuring, and post-merger integration to maximize value and minimize risk."
+                    ]
+                },
+                {
+                    "sub_service_name":"Financial Restructuring",
+                    "sub_service_descriptions":[
+                        "We evaluate financial performance and viability to identify restructuring opportunities.",
+                        "We develop and implement strategic restructuring plans to optimize capital structure and improve financial stability.",
+                        "We negotiate with creditors and stakeholders to achieve mutually beneficial outcomes and facilitate business turnaround."
+                    ]
+                }
+            ],
+            "image_url":"https://images.unsplash.com/photo-1527219525722-f9767a7f2884?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name":"Accounting",
+            "class_name":"accounting",
+            "description":"Streamline financial processes with professional accounting services.",
+            "sub_services":[
+                {
+                    "sub_service_name":"Bookkeeping",
+                    "sub_service_descriptions":[
+                        "We maintain accurate and up-to-date financial records for effective decision-making and compliance.",
+                        "We ensure adherence to accounting standards, regulations, and reporting requirements.",
+                        "We provide timely financial reports and insights to support business operations and strategic planning."
+                    ]
+                },
+                {
+                    "sub_service_name":"Financial Reporting",
+                    "sub_service_descriptions":[
+                        "We prepare and analyze comprehensive financial statements in compliance with regulatory standards and reporting requirements.",
+                        "We provide insights into financial performance, trends, and variances.",
+                        "We assist with interpretation of financial data to support informed decision-making and strategy development."
+                    ]
+                },
+                {
+                    "sub_service_name":"Payroll Processing",
+                    "sub_service_descriptions":[
+                        "We manage payroll processes accurately and efficiently, including calculations, deductions, and filings.",
+                        "We ensure compliance with tax laws, labor regulations, and employee benefits.",
+                        "We provide expert guidance and support on payroll-related matters to minimize risks and ensure employee satisfaction."
+                    ]
+                },
+                {
+                    "sub_service_name":"Budgeting and Forecasting",
+                    "sub_service_descriptions":[
+                        "We develop comprehensive budgets aligned with organizational goals and objectives.",
+                        "We forecast future financial performance and cash flow to support planning and decision-making.",
+                        "We monitor budget performance and variances, and provide actionable insights for performance improvement."
+                    ]
+                },
+                {
+                    "sub_service_name":"Financial Statement Analysis",
+                    "sub_service_descriptions":[
+                        "We analyze financial statements to evaluate performance, profitability, and financial health.",
+                        "We identify trends, patterns, and anomalies to support strategic decision-making and risk management.",
+                        "We provide insights and recommendations for optimizing financial performance and achieving business objectives."
+                    ]
+                }
+            ],
+            "image_url":"https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name":"GST and Compliance",
+            "class_name":"gst_and_compliance",
+            "description":"Navigate the complex landscape of GST and regulatory compliance.",
+            "sub_services":[
+                {
+                    "sub_service_name":"GST Registration and Filing",
+                    "sub_service_descriptions":[
+                        "We assist with GST registration, ensuring compliance with registration requirements and procedures.",
+                        "We handle GST filings accurately and on time to avoid penalties and compliance issues.",
+                        "We provide guidance on GST compliance, including classification, input tax credit, and invoice matching."
+                    ]
+                },
+                {
+                    "sub_service_name":"GST Advisory",
+                    "sub_service_descriptions":[
+                        "We offer expert advice and insights on GST matters, including compliance, planning, and optimization strategies.",
+                        "We provide analysis of GST implications for business operations, transactions, and supply chain management.",
+                        "We assist with GST audits, assessments, and disputes, ensuring compliance and minimizing risks."
+                    ]
+                },
+                {
+                    "sub_service_name":"Compliance Services",
+                    "sub_service_descriptions":[
+                        "We navigate regulatory requirements and ensure compliance with applicable laws, regulations, and standards.",
+                        "We conduct compliance reviews, audits, and assessments to identify gaps and areas of non-compliance.",
+                        "We provide tailored solutions and recommendations to address compliance issues, mitigate risks, and improve governance."
+                    ]
+                },
+                {
+                    "sub_service_name":"Customs and Excise Compliance",
+                    "sub_service_descriptions":[
+                        "We ensure compliance with customs and excise regulations, including import-export documentation and procedures.",
+                        "We provide advice and guidance on tariff classifications, valuation, and duty exemptions.",
+                        "We assist with customs audits, investigations, and disputes to minimize exposure and ensure compliance."
+                    ]
+                },
+                {
+                    "sub_service_name":"Legal Compliance",
+                    "sub_service_descriptions":[
+                        "We ensure compliance with all applicable laws, regulations, and legal requirements, including corporate, labor, and environmental laws.",
+                        "We review contracts, agreements, and legal documents for compliance and risk mitigation.",
+                        "We provide legal advisory services and support for regulatory filings, disclosures, and compliance documentation."
+                    ]
+                }
+            ],
+            "image_url":"https://images.unsplash.com/photo-1626266061368-46a8f578ddd6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
     ]
 }
