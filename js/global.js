@@ -48,7 +48,7 @@ function makeNavBarResponsive(){
                     </a>
                 </div>
                 <div class="hamburger">
-                    <label for="hamburger"><i class="fa-solid fa-bars hIcon"></i></label>
+                    <label for="hamburger" class="hIcon"><i class="fa-solid fa-bars"></i></label>
                     <input type="checkbox" id="hamburger" hidden>
                 </div>
             </div>
@@ -85,13 +85,14 @@ function makeNavBarResponsive(){
     }
 }
 function handleNavMenu(){
+    console.log("hamburger clicked");
     if($("#hamburger").is(':checked')){
+        $(".nav-items2").css("display","none");
+    }
+    else{
         $(".nav-items2").css("display","flex");
         $(".nav-items2").css("flex-direction","column");
         $(".nav-items2").css("justify-content","center");
         $(".nav-items2").css("align-items","center");
-    }
-    else{
-        $(".nav-items2").css("display","none");
     }
 }

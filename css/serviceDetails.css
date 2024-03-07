@@ -40,3 +40,30 @@
     padding: 20px;
     display: flex;
 }
+@media screen and (max-width:500px){
+    .black-overlay > h1{
+        font-size: 30px;
+    }
+    .black-overlay > div{
+        text-align: center;
+    }
+    .black-overlay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .black-overlay > div , .black-overlay > h1{
+        position: static;
+    }
+    .service-details-section{
+        flex-direction: column;
+    }
+    .service-details-img{
+        width:100%;
+        margin-bottom: 5%;
+    }
+    .service-details{
+        margin-left: 25px;
+    }
+}

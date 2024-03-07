@@ -54,3 +54,22 @@ border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
 }
+@media screen and (max-width:500px){
+    .contact-section{
+        flex-direction: column;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .contact-form{
+        padding:10px;
+    }
+    .contact-form > textarea{
+        padding: 5px;
+    }
+    .contact-form > input, .contact-form > textarea{
+        width:90%;
+    }
+    .contact-form > button{
+        width: 40%
+    }
+}
