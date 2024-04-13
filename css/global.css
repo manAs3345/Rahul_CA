@@ -53,7 +53,7 @@
     width: 100%;
 }
 .nav-items2{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;

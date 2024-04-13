@@ -87,9 +87,11 @@ function makeNavBarResponsive(){
 function handleNavMenu(){
     console.log("hamburger clicked");
     if($("#hamburger").is(':checked')){
+        console.log("hamburger radiobtn is checked");
         $(".nav-items2").css("display","none");
     }
     else{
+        console.log("hamburger radiobtn is not checked");
         $(".nav-items2").css("display","flex");
         $(".nav-items2").css("flex-direction","column");
         $(".nav-items2").css("justify-content","center");
