@@ -2,7 +2,6 @@ $(function(){
     makeNavBarResponsive();
     $(window).resize(makeNavBarResponsive);
     $(".nav-items2").css("display","none");
-    $(".hIcon").on("click",handleNavMenu);
     $("footer").html(`
     <div class="footer-logo-section">
             <div class="footer-logo">
@@ -63,6 +62,7 @@ function makeNavBarResponsive(){
         );
         $(".hIcon").css("display","block");
         $(".nav-items").css("display","none");
+        $(".hIcon").on("click",handleNavMenu);
     }else{
         $(".nav-section").html(
             `
